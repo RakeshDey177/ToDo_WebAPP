@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.todo{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.todo_form{
+    height: 600px;
+    text-align: center;
+}
+
+.todo_image{
+    height:60px;
+    width: 70px;
+}
+
+.todo_heading{
+    color:#fff;
+    text-align: center;
+    margin: auto;
+}
+
+.todo_input{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    height:40px;
+    width:280px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.adding{
+    position: relative;
+}
+
+#add_icon{
+    position: absolute;
+    right: 10px;
+    top:18px;
+    background-color: #fff;
+}
+
+#update_icon{
+    position: absolute;
+    right: 40px;
+    top:18px;
+    background-color: #fff;
+}
+
+#add_icon:hover{
+    transform:scale(1.1,1.1)
+}
+
+.remove_button{
+    color:white;
+    line-height:26px;
+    width:100%;
+    margin-top: 10px;
+    border:none;
+    padding: 12px;
+    background-color: rgb(21, 21, 138);
+}
+
+.remove_button:hover{
+    background-color: blue;
+}
+
+.list_data{
+    color: #fff;
+    background-color: #4E4FEB;
+    line-height:28px;
+    text-align: left;
+    padding-left: 10%;
+    width:100%;
+    margin-top: 12px;
+    list-style-type: none;
+    
+}
+
+.data_div{
+    position: relative;
+}
+
+#delete_icon{
+    position: absolute;
+    color:#fff;
+    right:10px;
+    top:6px
+}
+
+#edit_icon{
+    position: absolute;
+    color:#fff;
+    background-color: transparent;
+    right:40px;
+    top:6px
+}
